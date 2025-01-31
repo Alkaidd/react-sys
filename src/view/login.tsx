@@ -107,7 +107,7 @@ export default function ModernLogin() {
       <div className="w-full lg:w-1/2 flex items-center justify-center p-6">
         <div className="w-full max-w-md bg-white/30 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-white/20">
           <div className="mb-8 text-center space-y-2">
-            <h1 className="text-3xl font-bold text-gray-800">用户登录</h1>
+            <h1 className="text-3xl font-bold text-gray-800 pb-2">用户登录</h1>
             <p className="text-gray-600">选择您的登录方式</p>
           </div>
 
@@ -127,7 +127,7 @@ export default function ModernLogin() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-3 bg-white/50 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-200 focus:border-blue-500 outline-none transition-all placeholder-gray-400"
+                className="w-full px-4 py-3 bg-white/50 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-200 focus:border-blue-500 outline-none transition-all placeholder-gray-400 text-black"
                 placeholder="name@example.com"
               />
             </div>
@@ -140,7 +140,7 @@ export default function ModernLogin() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-4 py-3 bg-white/50 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-200 focus:border-blue-500 outline-none transition-all placeholder-gray-400"
+                className="w-full px-4 py-3 bg-white/50 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-200 focus:border-blue-500 outline-none transition-all placeholder-gray-400 text-black"
                 placeholder="••••••••"
               />
             </div>
